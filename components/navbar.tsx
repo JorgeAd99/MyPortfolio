@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import MotionTransition from "./transition-component";
 const NavBar = () => {
-    const router = usePathname
     return (
         <MotionTransition position="right" className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10">
             <nav>
@@ -13,7 +12,7 @@ const NavBar = () => {
                         <div key={item.id} 
                         className={`px-3 py-2 transition duration-150 
                         rounded-full cursor-pointer hover:bg-secondary 
-                        ${router === item.link && 'bg-secondary'}`}
+                        `}
                         data-tooltip-target="tooltip-default">
                             <Link href={item.link}> {item.icon} </Link>
                             
