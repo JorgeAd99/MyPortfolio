@@ -1,6 +1,8 @@
 import Avatar from "@/components/avatar";
 import { ContainerPage } from "@/components/container";
+import CounterServices from "@/components/counter-service";
 import MyExperience from "@/components/myexperience";
+import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
 const PageAbautMe = () => {
@@ -13,7 +15,8 @@ const PageAbautMe = () => {
                     Toda Mi 
                     <span className="font-bold text-secondary"> Trayectoria</span>
                 </h1>
-                <MyExperience/>
+                <CounterServices/>
+                <TimeLine/>
                 
             </ContainerPage>
         </>

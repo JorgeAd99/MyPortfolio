@@ -80,7 +80,7 @@ const ContactForm = () => {
                 </FormItem>
             )}
         />
-        <Button type="submit">Enviar</Button>
+        <Button variant="outline" type="submit">Submit</Button>
       </form>
     </Form>
     )
