@@ -12,10 +12,11 @@ const config: Config = {
         secondary: '#f5741c',
         darkBg:'#131424'
       },
+      
       backgroundImage: {
-        'gradient-cover': 'linear-gradient(to top, #603155, #72375a, #833e5e, #944661, #a54e63);'
-        
+        'custom-radial': 'radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120,119,198,0.3), rgba(255,255,255,0))',
       },
+      
     },
   },
   plugins: [],

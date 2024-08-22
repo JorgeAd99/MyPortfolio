@@ -6,13 +6,8 @@ import { AnimatePresence, motion } from "framer-motion";
 const TransitionPage = () => {
     return (
         <AnimatePresence mode="wait">
-            <div>
+            <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-custom-radial">
                 <motion.div
-                    className="absolute top-0 z-[-2] h-screen w-screen"
-                    style={{
-                      backgroundImage: 'radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0))',
-                      backgroundColor: 'bg-neutral-950',
-                    }}
                     variants={transitionVariantsPages}
                     initial="initial"
                     animate="animate"
