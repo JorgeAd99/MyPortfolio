@@ -19,9 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-        <NavBar/>
-        <Header />
-        {children}
+        <div className="flex min-h-[100vh] h-full bg-no-repeat bg-custom-radial">
+          <NavBar/>
+          <Header />
+          {children}
+        </div>
+        
 
       </body>
     </html>
